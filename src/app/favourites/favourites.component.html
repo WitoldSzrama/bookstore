@@ -1,0 +1,26 @@
+<div class="container mb-2">
+    <div class="d-flex justify-content-between">
+            <i class="fas fa-home fa-2x" routerLink="/" style="cursor: pointer" tooltip="Home"></i>
+            <i class="fas fa-book-open fa-2x" routerLink="/booklist" style="cursor: pointer" tooltip="Booklist"></i>
+            <i class="fas fa-plus fa-2x" routerLink="/booklist/newbook/0" style="cursor: pointer"  tooltip="New Book"></i>
+            <!-- <i class="fas fa-hand-holding-heart fa-2x" routerLink="/favourites" style="cursor: pointer"  tooltip="Favourite"></i> -->
+    </div>
+
+</div>
+     <div class="row">
+                <div class="col-sm-6" >
+                    <ul class="list-group" *ngFor="let fav of favouriteBooks">
+                        <li
+                        class="list-group-item text-center" 
+                        style="cursor: pointer"
+                        (click)="getFav(fav)"
+                        ><h4 >{{ fav.name }} </h4></li>
+                    </ul>
+                </div>
+            <div class="col-sm-6"><app-favourite *ngIf="fav;else choose" [fav]="fav"></app-favourite>            
+            </div>
+        </div> 
+
+
+
+

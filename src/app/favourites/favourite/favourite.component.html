@@ -1,0 +1,22 @@
+<h3 class="text-center list-group-item">Favourites {{fav.name}}:</h3>
+<div *ngIf="fav.books.length>0;else noFav">
+
+    <div *ngFor="let book of fav.books">
+        <ul class="list-group" >
+            <li class="list-group-item">
+                <div class="d-flex justify-content-between">
+                        <div style="cursor: pointer" (click)='moveToBookDetail(book)' > {{book.title}} </div> <span class="" style="cursor: pointer; color:red;" (click)="onDelete(book,fav)">X</span>
+                </div>
+                    
+            </li>
+            
+            </ul>
+    </div>
+
+</div>
+<ng-template #noFav>
+        <li class="list-group-item" >There is no book in this category</li>
+</ng-template>
+
+
+

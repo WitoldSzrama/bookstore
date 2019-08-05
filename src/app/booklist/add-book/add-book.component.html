@@ -1,0 +1,63 @@
+<div class="container mb-2">
+  <div class="d-flex justify-content-between">
+          <i class="fas fa-home fa-2x" routerLink="/" style="cursor: pointer" tooltip="Home"></i>
+          <i class="fas fa-book-open fa-2x" routerLink="/booklist" style="cursor: pointer" tooltip="Booklist"></i>
+          <!-- <i class="fas fa-plus fa-2x" routerLink="/booklist/newbook/0" style="cursor: pointer"  tooltip="New Book"></i> -->
+          <i class="fas fa-hand-holding-heart fa-2x" routerLink="/favourites" style="cursor: pointer"  tooltip="Favourite"></i>
+  </div>
+<div class="jumbotron">
+  <form #clientForm="ngForm" (ngSubmit)="addNewBook(clientForm)">
+    <div class="form-group">
+      <label for="form-control">Book title:</label>
+      <input type="text" class="form-control" placeholder="Book title" name="title" [(ngModel)]="title" minlength="2"
+        maxlength="60" required #titleForm="ngModel" [ngClass]="{'is-invalid':titleForm.errors && 
+                    titleForm.touched}">
+      <div [hidden]="!titleForm?.errors" class="invalid-feedback">
+        <ul>
+          <li>Title required </li>
+          <li>Characters between 2-60 </li>
+        </ul>
+      </div>
+    </div>
+    <div class="form-group">
+      <label for="form-control">Author:</label>
+      <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Author" name="author"
+        [(ngModel)]="author" minlength="2" maxlength="20" required #authorForm="ngModel" [ngClass]="{'is-invalid':authorForm.errors && 
+                        authorForm.touched}">
+      <div [hidden]="!authorForm?.errors" class="invalid-feedback">
+        <ul>
+          <li>Author required </li>
+          <li>Characters between 2-25 </li>
+        </ul>
+      </div>
+    </div>
+    <div class="form-group">
+      <label>Description</label>
+      <textarea class="form-control" placeholder="About the book" name="description" [(ngModel)]="description"
+        minlength="2" maxlength="1000" required #descriptionForm="ngModel" [ngClass]="{'is-invalid':descriptionForm.errors && 
+                    descriptionForm.touched}"></textarea>
+      <div [hidden]="!descriptionForm?.errors" class="invalid-feedback">
+        <ul>
+          <li>Description required </li>
+          <li>Characters between 2-1000 </li>
+        </ul>
+      </div>
+    </div>
+    <div class="form-group">
+      <label for="form-control">Price:</label>
+      <input type="number" class="form-control" id="formGroupExampleInput" placeholder="Price" name="price"
+        [(ngModel)]="price" required #priceForm="ngModel" [ngClass]="{'is-invalid':priceForm.errors && 
+                            priceForm.touched}">
+      <div [hidden]="!priceForm?.errors" class="invalid-feedback">
+        <ul>
+          <li>Price required </li>
+        </ul>
+      </div>
+    </div>
+
+    <button class="btn btn-dark bg-dark" type="submit" *ngIf="bookIndex==0; else update">Add</button>
+    <ng-template #update>
+      <button type="submit" class="btn btn-dark bg-dark">Update</button>
+    </ng-template>
+  </form>
+</div>

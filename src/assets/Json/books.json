@@ -1,0 +1,251 @@
+{
+  "books": [
+    {
+      "title": "Harry Potter and the Philosopher's Stone",
+      "author": "JK Rowling",
+      "description": "Harry Potter and the Philosopher's Stone is a fantasy novel written by British author J. K. Rowling. The first novel in the Harry Potter series and Rowling's debut novel, it follows Harry Potter, a young wizard who discovers his magical heritage on his eleventh birthday, when he receives a letter of acceptance to Hogwarts School of Witchcraft and Wizardry. Harry makes close friends and a few enemies during his first year at the school, and with the help of his friends, Harry faces an attempted comeback by the dark wizard Lord Voldemort, who killed Harry's parents, but failed to kill Harry when he was just 15 months old.",
+      "price": 30
+    },
+    {
+      "title": "Harry Potter and the Chamber of Secrets",
+      "author": "JK Rowling",
+      "description": "Harry Potter and the Chamber of Secrets is a fantasy novel written by British author J. K. Rowling and the second novel in the Harry Potter series. The plot follows Harry's second year at Hogwarts School of Witchcraft and Wizardry, during which a series of messages on the walls of the school's corridors warn that the \"Chamber of Secrets\" has been opened and that the \"heir of Slytherin\" would kill all pupils who do not come from all-magical families. These threats are found after attacks which leave residents of the school petrified. Throughout the year, Harry and his friends Ron and Hermione investigate the attacks.",
+      "price": 30
+    },
+    {
+      "title": "Harry Potter and the Prisoner of Azkaban",
+      "author": "JK Rowling",
+      "description": "Harry Potter and the Prisoner of Azkaban is a fantasy novel written by British author J. K. Rowling and the third in the Harry Potter series. The book follows Harry Potter, a young wizard, in his third year at Hogwarts School of Witchcraft and Wizardry. Along with friends Ronald Weasley and Hermione Granger, Harry investigates Sirius Black, an escaped prisoner from Azkaban who they believe is one of Lord Voldemort's old allies.",
+      "price": 30
+    },
+    {
+      "title": "Harry Potter and the Goblet of Fire",
+      "author": "JK Rowling",
+      "description": "Harry Potter and the Goblet of Fire is a fantasy book written by British author J. K. Rowling and the fourth novel in the Harry Potter series. It follows Harry Potter, a wizard in his fourth year at Hogwarts School of Witchcraft and Wizardry and the mystery surrounding the entry of Harry's name into the Triwizard Tournament, in which he is forced to compete.",
+      "price": 30
+    },
+    {
+      "title": "Harry Potter and the Order of the Phoenix",
+      "author": "JK Rowling",
+      "description": "Harry Potter and the Order of the Phoenix is a fantasy novel written by British author J. K. Rowling and the fifth novel in the Harry Potter series. It follows Harry Potter's struggles through his fifth year at Hogwarts School of Witchcraft and Wizardry, including the surreptitious return of the antagonist Lord Voldemort, O.W.L. exams, and an obstructive Ministry of Magic. The novel was published on 21 June 2003 by Bloomsbury in the United Kingdom, Scholastic in the United States, and Raincoast in Canada. Five million copies were sold in the first 24 hours of publication.[1] It is the longest book of the series.",
+      "price": 30
+    },
+    {
+      "title": "Harry Potter and the Half-Blood Prince",
+      "author": "JK Rowling",
+      "description": "Harry Potter and the Half-Blood Prince is a fantasy novel written by British author J. K. Rowling and the sixth and penultimate novel in the Harry Potter series. Set during protagonist Harry Potter's sixth year at Hogwarts, the novel explores the past of Harry's nemesis, Lord Voldemort, and Harry's preparations for the final battle against Voldemort alongside his headmaster and mentor Albus Dumbledore.",
+      "price": 30
+    },
+    {
+      "title": "Harry Potter and the Deathly Hallows",
+      "author": "JK Rowling",
+      "description": "Harry Potter and the Deathly Hallows is a fantasy novel written by British author J. K. Rowling and the seventh and final novel of the Harry Potter series. The book was released on 21 July 2007, ending the series that began in 1997 with the publication of Harry Potter and the Philosopher's Stone. It was published in the United Kingdom by Bloomsbury Publishing, in the United States by Scholastic, and in Canada by Raincoast Books. The novel chronicles the events directly following Harry Potter and the Half-Blood Prince (2005) and the final confrontation between the wizards Harry Potter and Lord Voldemort.",
+      "price": 30
+    },
+    {
+      "title": "The Lord of the Rings: The Fellowship of the Ring",
+      "author": "J. R. R. Tolkien",
+      "description": "The Lord of the Rings is an epic high fantasy novel written by English author and scholar J. R. R. Tolkien. The story began as a sequel to Tolkien's 1937 fantasy novel The Hobbit, but eventually developed into a much larger work. Written in stages between 1937 and 1949, The Lord of the Rings is one of the best-selling novels ever written, with over 150 million copies sold.The title of the novel refers to the story's main antagonist, the Dark Lord Sauron,[a] who had in an earlier age created the One Ring to rule the other Rings of Power as the ultimate weapon in his campaign to conquer and rule all of Middle-earth. From quiet beginnings in the Shire, a hobbit land not unlike the English countryside, the story ranges across Middle-earth, following the course of the War of the Ring through the eyes of its characters, most notably the hobbits Frodo Baggins, Sam, Merry and Pippin.",
+      "price": 42
+    },
+    {
+      "title": "The Lord of the Rings: The Two Towers",
+      "author": "J. R. R. Tolkien",
+      "description": "The Fellowship was scattered. Some were bracing hopelessly for war against the ancient evil of Sauron. Some were contending with the treachery of the wizard Saruman. Only Frodo and Sam were left to take the accursed Ring of Power to be destroyed in Mordor–the dark Kingdom where Sauron was supreme. Their guide was Gollum, deceitful and lust-filled, slave to the corruption of the Ring. Thus continues the magnificent, bestselling tale of adventure begun in The Fellowship of the Ring, which reaches its soul-stirring climax in The Return of the King.",
+      "price": 42
+    },
+    {
+      "title": "The Lord of the Rings: The Fellowship of the Ring",
+      "author": "J. R. R. Tolkien",
+      "description":  "Just as every great story has a beginning, every great story also has a great ending. The difficulty with the last book in a series or in the season finale of a television show is that you don’t want the story to end just yet; and you hope beyond hope that the writers will be able to wrap everything up and give you a satisfying ending. The same goes with “The Lord of the Rings” Trilogy. Thankfully, in the end, JRR Tolkien was able to masterfully come up with a satisfying ending that wrapped all the loose threads neatly while still leaving some room for future stories to be told; and skillfully made the conclusion to his trilogy that balanced all the action and romance together.",
+      "price": 42
+    },
+    {
+      "title": "The Hobbit",
+      "author": "J. R. R. Tolkien",
+      "description":  "The Hobbit, or There and Back Again is a children's fantasy novel by English author J. R. R. Tolkien. It was published on 21 September 1937 to wide critical acclaim, being nominated for the Carnegie Medal and awarded a prize from the New York Herald Tribune for best juvenile fiction. The book remains popular and is recognized as a classic in children's literature. The Hobbit is set within Tolkien's fictional universe and follows the quest of home-loving Bilbo Baggins, the titular hobbit, to win a share of the treasure guarded by Smaug the dragon. Bilbo's journey takes him from light-hearted, rural surroundings into more sinister territory.",
+      "price": 35
+    },
+    {
+      "title": "The Witcher Sword of Destiny",
+      "author": "A. Sapkowski",
+      "description": "Sword of Destiny (Polish original title: Miecz przeznaczenia), is the second (in its fictional chronology; first in Polish print) of the two collections of short stories (the other being The Last Wish), both preceding the main Witcher Saga. The stories were written by Polish fantasy writer Andrzej Sapkowski. The first Polish edition was published in 1992; the English edition was published in the UK by Gollancz in 2015.",
+      "price": 30
+    },
+    {
+      "title": "The Witcher Last Wish",
+      "author": "A. Sapkowski",
+      "description": "The Last Wish (Polish: Ostatnie życzenie) is the first (in its fictional chronology; published second in original Polish) of the two collections of short stories (the other being Sword of Destiny) preceding the main Witcher Saga, written by Polish fantasy writer Andrzej Sapkowski. The first Polish edition was published in 1993 and the first English edition was first published in 2007 The book has also been translated into several other languages.",
+      "price": 30
+    },
+    {
+      "title": "The Witcher Blood of Elves",
+      "author": "A. Sapkowski",
+      "description": "Blood of Elves (Polish: Krew elfów) is the first novel in the Witcher Saga written by the Polish fantasy writer Andrzej Sapkowski, first published in Poland in 1994. It is a sequel to the Witcher short stories collected in the books The Last Wish (Ostatnie życzenie) and Sword of Destiny (Miecz przeznaczenia) and is followed by Time of Contempt (Czas pogardy). The book won the Janusz A. Zajdel Award and David Gemmell Legend Award awards. An English translation was published in the United Kingdom in 2008 (Gollancz) and in the United States in 2009 (Orbit).",
+      "price": 30
+    },
+    {
+      "title": "The Witcher Time of Contempt",
+      "author": "A. Sapkowski",
+      "description": "Time of Contempt (Polish original title: Czas pogardy, early title was translated less literally as Time of Anger) is the second novel in the Witcher Saga written by Polish fantasy writer Andrzej Sapkowski, first published 1995 in Polish, and 2013 in English. It is a sequel to the first Witcher novel Blood of Elves (Krew elfów) and is followed by Baptism of Fire (Chrzest ognia)",
+      "price": 30
+    },
+    {
+      "title": "The Witcher Baptism of Fire ",
+      "author": "A. Sapkowski",
+      "description": "Baptism of Fire (Polish original title: Chrzest ognia) is the third novel in the Witcher Saga written by Polish fantasy writer Andrzej Sapkowski, first published in 1996 in Polish and in English in 2014. It is a sequel to the second Witcher novel Time of Contempt (Czas pogardy) and is followed by The Tower of Swallows (Wieża Jaskółki).",
+      "price": 30
+    },
+    {
+      "title": "The Witcher The Tower of the Swallow ",
+      "author": "A. Sapkowski",
+      "description": "The Tower of the Swallow, known as The Tower of Swallows in the United States (Polish original title: Wieża Jaskółki) is the fourth novel in the Witcher Saga written by Polish fantasy writer Andrzej Sapkowski, first published in Poland in 1997. It is a sequel to the third Witcher novel Baptism of Fire (Chrzest ognia) and is followed by the final entry in the series, The Lady of the Lake (Pani Jeziora).",
+      "price": 30
+    },
+    {
+      "title": "The Lady of the Lake",
+      "author": "A. Sapkowski",
+      "description": "The Lady of the Lake (Polish original title: Pani Jeziora) is the fifth novel in the Witcher Saga written by Polish fantasy writer Andrzej Sapkowski, first published in Poland in 1999. It is a sequel to the fourth Witcher novel, The Swallow's Tower (Wieża Jaskółki).",
+      "price": 30
+    },
+    {
+      "title": "The Witcher Season of Storms",
+      "author": "A. Sapkowski",
+      "description": "Season of Storms (Polish original title: Sezon burz) is the sixth novel and eighth overall book in the Witcher series written by Polish fantasy writer Andrzej Sapkowski, first published in Poland in 2013. It is not a sequel to the original Witcher Saga, but rather is set between the short stories in the first book in the series, The Last Wish.",
+      "price": 30
+    },
+    {
+      "title": "Normal People",
+      "author": "Sally Rooney",
+      "description": "THE NUMBER ONE SUNDAY TIMES AND TOP FIVE NEW YORK TIMES BESTSELLER A BBC ONE DRAMA ADAPTATION CURRENTLY IN PRODUCTION.Connell and Marianne grow up in the same small town in the west of Ireland, but the similarities end there. In school, Connell is popular and well-liked, while Marianne is a loner. But when the two strike up a conversation - awkward but electrifying - something life-changing begins.",
+      "price": 42
+    },
+    {
+      "title": "A Gentelmen in Moscow",
+      "author": "Amor Towles",
+      "description": "On 21 June 1922, Count Alexander Rostov - recipient of the Order of Saint Andrew, member of the Jockey Club, Master of the Hunt - is escorted out of the Kremlin, across Red Square and through the elegant revolving doors of the Hotel Metropol. Deemed an unrepentant aristocrat by a Bolshevik tribunal, the Count has been sentenced to house arrest indefinitely. But instead of his usual suite, he must now live in an attic room while Russia undergoes decades of tumultuous upheaval. Can a life without luxury be the richest of all?",
+      "price": 35
+    },
+    {
+      "title": "Call Me By Your Name",
+      "author": "Andre Aciman",
+      "description": "An Instant Classic and One of the Great Love Stories of Our Time Andre Aciman's Call Me by Your Name is the story of a sudden and powerful romance that blossoms between an adolescent boy and a summer guest at his parents' cliffside mansion on the Italian Riviera. Each is unprepared for the consequences of their attraction, when, during the restless summer weeks, unrelenting currents of obsession, fascination, and desire intensify their passion and test the charged ground between them. Recklessly, the two verge toward the one thing both fear they may never truly find again: total intimacy. It is an instant classic and one of the great love stories of our time.",
+      "price": 25
+    },
+    {
+      "title": "Heartstopper Volume One",
+      "author": "ALICE OSEMAN",
+      "description": "Boy meets boy. Boys become friends. Boys fall in love. An LGBTQ+ graphic novel about life, love, and everything that happens in between - for fans of The Art of Being Normal, Holly Bourne and Love, Simon. Charlie and Nick are at the same school, but they've never met ... until one day when they're made to sit together. They quickly become friends, and soon Charlie is falling hard for Nick, even though he doesn't think he has a chance. But love works in surprising ways, and Nick is more interested in Charlie than either of them realised. Heartstopper is about love, friendship, loyalty and mental illness. It encompasses all the small stories of Nick and Charlie's lives that together make up something larger, which speaks to all of us.",
+      "price": 32
+    },
+    {
+      "title": "Heartstopper Volume Two",
+      "author": "ALICE OSEMAN",
+      "description": "Boy meets boy. Boys become friends. Boys fall in love. An LGBTQ+ graphic novel about life, love, and everything that happens in between: this is the second volume of HEARTSTOPPER, for fans of The Art of Being Normal, Holly Bourne and Love, Simon. *Includes exclusive Tara/Darcy story!* Nick and Charlie are best friends. Nick knows Charlie's gay, and Charlie is sure that Nick isn't. But love works in surprising ways, and Nick is discovering all kinds of things about his friends, his family ... and himself. Heartstopper is about friendship, loyalty and mental illness. It encompasses all the small stories of Nick and Charlie's lives that together make up something larger, which speaks to all of us. ",
+      "price": 42
+    },
+    {
+      "title": "Eleanor Oliphant is Completely Fine",
+      "author": "Gail Honeyman",
+      "description": "Eleanor Oliphant has learned how to survive - but not how to live Eleanor Oliphant leads a simple life. She wears the same clothes to work every day, eats the same meal deal for lunch every day and buys the same two bottles of vodka to drink every weekend.Eleanor Oliphant is happy. Nothing is missing from her carefully timetabled life. Except, sometimes, everything. One simple act of kindness is about to shatter the walls Eleanor has built around herself. Now she must learn how to navigate the world that everyone else seems to take for granted - while searching for the courage to face the dark corners she's avoided all her life. Change can be good. Change can be bad. But surely any change is better than... fine?",
+      "price": 56
+    },
+    {
+      "title": "Night Boat to Tangier",
+      "author": "Kevin Barry",
+      "description": "It's late one night at the Spanish port of Algeciras and two fading Irish gangsters are waiting on the boat from Tangier. A lover has been lost, a daughter has gone missing, their world has come asunder - can it be put together again? Night Boat to Tangier is a novel drenched in sex and death and narcotics, in sudden violence and old magic. But above all, it is a book obsessed with the mysteries of love. A tragicomic masterwork from the award-winning Kevin Barry, Night Boat to Tangier is a work of melancholy beauty, wit and lyrical brilliance.",
+      "price": 24
+    },
+    {
+      "title": "Dracula",
+      "author": "Bram Stoker",
+      "description": "Dracula is an 1897 Gothic horror novel by Irish author Bram Stoker. It introduced the character of Count Dracula, and established many conventions of subsequent vampire fantasy.[1] The novel tells the story of Dracula's attempt to move from Transylvania to England so that he may find new blood and spread the undead curse, and of the battle between Dracula and a small group of men and a woman led by Professor Abraham Van Helsing.",
+      "price": 49
+    },
+    {
+      "title": "The Haunting of Hill House",
+      "author": "Shirley Jackson",
+      "description": "The Haunting of Hill House is a 1959 gothic horror novel by American author Shirley Jackson. A finalist for the National Book Award and considered one of the best literary ghost stories published during the 20th century,[1] it has been made into two feature films and a play, and is the basis of a Netflix series. Jackson's novel relies on terror rather than horror to elicit emotion in the reader, using complex relationships between the mysterious events in the house and the characters’ psyches.",
+      "price": 39
+    },
+    {
+      "title": "Frankenstein",
+      "author": "Mary Shelley",
+      "description": "Frankenstein; or, The Modern Prometheus is a novel written by English author Mary Shelley (1797–1851) that tells the story of Victor Frankenstein, a young scientist who creates a hideous, sapient creature in an unorthodox scientific experiment. Shelley started writing the story when she was 18, and the first edition of the novel was published anonymously in London on 1 January 1818, when she was 20. Her name first appeared on the second edition, published in 1823.",
+      "price": 50
+    },
+    {
+      "title": "The Shining",
+      "author": "Stephen King",
+      "description": "The Shining is a horror novel by American author Stephen King. Published in 1977, it is King's third published novel and first hardback bestseller: the success of the book firmly established King as a preeminent author in the horror genre. The setting and characters are influenced by King's personal experiences, including both his visit to The Stanley Hotel in 1974 and his recovery from alcoholism. The novel was followed by a sequel, Doctor Sleep, published in 2013.",
+      "price": 30
+    },
+    {
+      "title": "It",
+      "author": "Stephen King",
+      "description": "It is a 1986 horror novel by American author Stephen King. It was his 22nd book, and his 18th novel written under his own name. The story follows the experiences of seven children as they are terrorized by an evil entity that exploits the fears and phobias of its victims to disguise itself while hunting its prey. \"It\" primarily appears in the form of Pennywise the Dancing Clown to attract its preferred prey of young children.",
+      "price": 25
+    },
+    {
+      "title": "House of Leaves",
+      "author": "Mark Z. Danielewski",
+      "description": "While some have attempted to describe the book as a horror story, many readers, as well as the author, define the book as a love story. Danielewski expands on this point in an interview: \"I had one woman come up to me in a bookstore and say, 'You know, everyone told me it was a horror book, but when I finished it, I realized that it was a love story.' And she's absolutely right. In some ways, genre is a marketing tool.\" House of Leaves has also been described as a \"satire of academic criticism.\"",
+      "price": 42
+    },
+    {
+      "title": "Bird Box ",
+      "author": "Josh Malerman",
+      "description": "Bird Box is a 2014 post-apocalyptic novel and the debut novel by American writer and singer Josh Malerman.[1] The book was first published in the United Kingdom on March 27, 2014, through Harper Voyager and in the United States on May 13, 2014, through Ecco Press. The book follows a woman who must find a way to guide herself and her children to safety despite the potential threat from an unseen adversary. The story is partially told via flashbacks and takes place during three time periods.",
+      "price": 35
+    },
+    {
+      "title": "You'll Never See Me Again",
+      "author": "Lesley Pearse",
+      "description": "Did you ever wish you could run away from your life and start again? When Betty's husband returns from the war broken and haunted, she knows her marriage is doomed. Taking a fleeting chance to escape, she goes on the run armed with a new identity. But penniless and alone, Betty quickly finds that starting again is much harder than she thought.And she never imagined it could end in murder . . .Sometimes you have to keep running if you want to survive.",
+      "price": 47
+    },
+    {
+      "title": "Kingdom of the Blind",
+      "author": "Louise Penny",
+      "description": "When Armand Gamache receives a letter inviting him to an abandoned farmhouse outside of Three Pines, the former head of the Surete du Quebec discovers that a complete stranger has named him as an executor of her will. The bequests are so wildly unlikely that he suspects the woman must have been delusional - until a body is found. But it isn't the only menace Gamache is facing. The investigation into the events that led to his suspension delves deeper, and he takes increasingly desperate measures to rectify previous actions. As he does, Gamache begins to see his own blind spots - and the terrible things hiding there . . .",
+      "price": 36
+    },
+    {
+      "title": "The Last Widow",
+      "author": "Karin Slaughter",
+      "description": "It begins with an abduction. The routine of a family shopping trip is shattered when Michelle Spivey is snatched as she leaves the mall with her young daughter. The police search for her, her partner pleads for her release, but in the end...they find nothing. It's as if she disappeared into thin air. A month later, on a sleepy Sunday afternoon, medical examiner Sara Linton is at lunch with her boyfriend Will Trent, an agent with the Georgia Bureau of Investigation. But the serenity of the summer's day is broken by the wail of sirens...",
+      "price": 31
+    },
+    {
+      "title": "Long Road to Mercy",
+      "author": "David Baldacci",
+      "description": "FBI Special Agent Atlee Pine has learnt three lessons in life: Some wounds never heal. Atlee's twin sister, Mercy, was abducted from their bedroom over thirty years ago, and Atlee has spent every day since wondering what happened to her. Time doesn't lessen your pain. The prime suspect, notorious serial killer Daniel James Tor, is in a high-security prison, but with no confession, Atlee continues to search for her sister, even as Tor taunts her from jail. But she can always make a difference. ",
+      "price": 29
+    },
+    {
+      "title": "The House Next Door",
+      "author": "James Patterson",
+      "description": "Three chilling stories from the world's bestselling thriller writer  The House Next Door (with Susan DiLallo): Married mother of four Laura Sherman was thrilled when her new neighbour invited her on some errands. But a few quick tasks became a long lunch - and now things could go too far with a man who isn't what he seems... The Killer's Wife (with Max DiLallo): Six girls have gone missing. Detective McGrath knows the only way to find them is to get close to the suspect's wife... maybe too close. The Witnesses (with Brendan DuBois): The Sanderson family has been forced into hiding after one of them stumbled upon a criminal plot. Or so they think. No one will answer their questions. And the terrifying truth may come too late... ",
+      "price": 42
+    },
+    {
+      "title": "The Whisper Man",
+      "author": "Alex North",
+      "description": "Alex North has achieved the seemingly impossible. The Whisper Man is a thriller that is both terrifying and utterly heartbreaking. Mesmerising and masterful' Mark Billingham If you leave a door half-open, soon you'll hear the whispers spoken . . . Still devastated after the loss of his wife, Tom Kennedy and his young son Jake move to the sleepy village of Featherbank, looking for a much-needed fresh start. But Featherbank has a dark past. Fifteen years ago, a twisted serial killer abducted and murdered five young boys. Until he was finally caught, the killer was known as 'The Whisper Man'. Of course, an old crime need not trouble Tom and Jake as they try to settle in to their new home. Except that now another boy has gone missing. And then Jake begins acting strangely. He says he hears a whispering at his window . . .",
+      "price": 30
+    },
+    {
+      "title": "Careless Love",
+      "author": "Peter Robinson",
+      "description": "The body of a young local student is found on a lonely country road. Initially the evidence points to suicide, yet she didn't own a car and she didn't even drive. So how did she get there, where did she die and who moved her? Meanwhile, a man in his sixties is found dead in a gully up on the nearby wild moorland. He is carrying no identification. The post-mortem indicates that he died from injuries sustained during the fall, but what was he doing up there? And why are there no signs of a car in the vicinity? As the trail gets colder, Annie's father's new partner, Zelda, alerts Banks and Annie to the return of an old and dangerous enemy in a new guise. This is someone who will stop at nothing, not even murder, to get what he wants.",
+      "price": 30
+    },
+    {
+      "title": "Ghost Story",
+      "author": "Peter Straub",
+      "description": "host Story is a horror novel by American writer Peter Straub. It was published on January 1, 1979 by Coward, McCann and Geoghegan. The book was adapted into a film by the same name in 1981, minus the novel's fifth protagonist character, Lewis Benedikt.       The novel was a watershed in Straub's career. Though his earlier books had achieved a limited amount of critical and commercial success, Ghost Story became a national bestseller and cemented the author's reputation",
+      "price": 30
+    }
+
+  ]
+}

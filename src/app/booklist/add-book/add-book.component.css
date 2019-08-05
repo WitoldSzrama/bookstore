@@ -1,0 +1,7 @@
+.jumbotron,input,textarea{
+    background: rgba(242,238,203,0.8);
+    border: 2px solid brown;
+    border-radius: 10px;
+    margin: 10px;
+}
+

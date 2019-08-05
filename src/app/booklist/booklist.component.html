@@ -1,0 +1,72 @@
+<div class="container mb-2">
+        <div class="d-flex justify-content-between">
+                <i class="fas fa-home fa-2x" routerLink="/" style="cursor: pointer" tooltip="Home"></i>
+                <!-- <i class="fas fa-book-open fa-2x" routerLink="/booklist" style="cursor: pointer" tooltip="Booklist"></i> -->
+                <i class="fas fa-plus fa-2x" routerLink="/booklist/newbook/0" style="cursor: pointer"  tooltip="New Book"></i>
+                <i class="fas fa-hand-holding-heart fa-2x" routerLink="/favourites" style="cursor: pointer"  tooltip="Favourite"></i>
+        </div>
+
+</div>
+
+<div [ngClass]="{'row':selectedBook}">
+        <app-book 
+        *ngIf="selectedBook" 
+        [book]="selectedBook"
+        [ngClass]="{'col-lg-6':selectedBook}" >
+    </app-book>
+    <div [ngClass]="{'col-lg-6':selectedBook}">
+        <div class="row">
+            <div class="col-sm-3 text-center">
+                    <li
+                    class="list-group-item"
+                    style="cursor: pointer"
+                    (click)="formCheck()"
+                    >
+                            <i class="fas fa-plus fa-2x" style="cursor: pointer"  tooltip="Add New Book"></i>
+                </li>
+            </div>
+            <div class="col-sm-9 d-flex bd-highlight">
+                            <input 
+                              class="p-2 w-100 bd-highlight " 
+                              type="search" placeholder="Search" 
+                              aria-label="Search"
+                              [(ngModel)]="search"
+                              name="search">
+            </div>
+        </div>
+         
+        <ul class="list-group" *ngFor="let book of Books; let id = index"> 
+            <li 
+                class="list-group-item" 
+                
+                *ngIf="checkSearch(book)"
+                >
+                
+                    <h3 (click)="onSelected(book)" style="cursor: pointer">{{book.title}}</h3> by 
+                    <div class="d-flex justify-content-between">
+                    <div (click)="onSelected(book)" style="cursor: pointer">{{book.author}}  </div>
+                    <div>
+                        <i class="fas fa-trash fa-2x mr-1" style=" cursor: pointer;" (click)="removeBook(book)" tooltip="Delete Book"></i>
+                        <i class="fas fa-keyboard fa-2x" (click)="updateBook(id)" style=" cursor: pointer;" placement="bottom" tooltip="Edit Book"></i>
+                    </div>    
+                </div>
+            </li>
+            </ul>
+
+    </div>
+
+    <!-- <div *ngIf="addNewBook">
+        <app-book 
+            *ngIf="selectedBook" 
+            [book]="selectedBook" >
+        </app-book>
+     <app-add-book
+        *ngIf="!selectedBook"  
+        [id]="id" 
+        [editBook]="editBook" 
+        (bookDet)="selectedBook=$event">
+    </app-add-book>
+    </div> -->
+</div>
+
+
